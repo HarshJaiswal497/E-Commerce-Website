@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>E-commerce Website</title>
+</head>
+
+<body>
+    <nav>
+        <!-- <div class="logo"><img src="logo.png" alt=""></div> -->
+        <ul class="nav-links">
+            <li><img src="logo.png" alt=""></li>
+            <li><a href="#home">Home</a></li>
+            <li class="dropdown">
+                <a href="#categories">Categories</a>
+                <div class="dropdown-content"></div>
+            </li>
+            <li><a href="#featured-products">Featured Products</a></li>
+            <li><a href="#new-arrivals">New Arrivals</a></li>
+            <li><a href="#deals-of-the-day">Hot Deals</a></li>
+            <li><a href="#featured-brands">Featured Brands</a></li>
+            <li class="dropdown">
+                <a href="#information">Information</a>
+                <div class="dropdown-content"></div>
+            </li>
+            <li>
+                <form class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">Search</button>
+                </form>
+            </li>
+            <li><a href="#contact-us" id="openContactModal">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Our E-commerce Store</h1>
+                <p>Discover the latest trends and exclusive deals.</p>
+                <a href="#" class="btn-shop-now">Shop Now</a>
+            </div>
+        </section>
+    </header>
+
+    <section class="category-section" id="categories">
+        <section class="category">
+            <h2>Explore Our Categories</h2>
+            <div class="category-list">
+                <a href="clothing.html" class="category-item">
+                    <img src="clothing.avif" alt="Clothing Category">
+                    <p>Clothing</p>
+                </a>
+                <a href="shoes.html" class="category-item">
+                    <img src="shoes.avif" alt="Shoes Category">
+                    <p>Shoes</p>
+                </a>
+                <a href="accessories.html" class="category-item">
+                    <img src="accessories.avif" alt="Accessories Category">
+                    <p>Accessories</p>
+                </a>
+            </div>
+        </section>
+    </section>
+
+    <section class="featured-products-section">
+        <h2>Featured Products</h2>
+        <div class="featured-products">
+            <article class="product-item">
+                <img src="featured-product1.avif" alt="Featured Product 1">
+                <h3>Product Name 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">$49.99</span>
+                <a href="#" class="btn-add-to-cart">Add to Cart</a>
+            </article>
+            <article class="product-item">
+                <img src="featured-product2.avif" alt="Featured Product 2">
+                <h3>Product Name 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">$39.99</span>
+                <a href="#" class="btn-add-to-cart">Add to Cart</a>
+            </article>
+            <article class="product-item">
+                <img src="featured-product3.avif" alt="Featured Product 2">
+                <h3>Product Name 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">$39.99</span>
+                <a href="#" class="btn-add-to-cart">Add to Cart</a>
+            </article>
+            <article class="product-item">
+                <img src="featured-product4.avif" alt="Featured Product 2">
+                <h3>Product Name 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">$39.99</span>
+                <a href="#" class="btn-add-to-cart">Add to Cart</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="new-arrivals-section">
+        <h2>New Arrivals</h2>
+        <div class="new-arrivals">
+            <article class="product-item">
+                <img src="new-arrival1.webp" alt="New Arrival 1">
+                <h3>New Product 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">$59.99</span>
+                <a href="#" class="btn-add-to-cart">Add to Cart</a>
+            </article>
+            <article class="product-item">
+                <img src="new-arrival3.avif" alt="New Arrival 1">
+                <h3>New Product 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">$59.99</span>
+                <a href="#" class="btn-add-to-cart">Add to Cart</a>
+            </article>
+            <article class="product-item">
+                <img src="new-arrival2.jpeg" alt="New Arrival 2">
+                <h3>New Product 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">$49.99</span>
+                <a href="#" class="btn-add-to-cart">Add to Cart</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="deals-section">
+        <h2>Deals of the Day</h2>
+        <div class="deals-of-the-day">
+            <article class="product-item">
+                <img src="deal-of-the-day1.jpeg" alt="Deal of the Day 1">
+                <h3>Deal 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">$69.99</span>
+                <a href="#" class="btn-add-to-cart">Add to Cart</a>
+            </article>
+            <article class="product-item">
+                <img src="deal-of-the-day3.jpg" alt="Deal of the Day 1">
+                <h3>Deal 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">$69.99</span>
+                <a href="#" class="btn-add-to-cart">Add to Cart</a>
+            </article>
+            <article class="product-item">
+                <img src="deal-of-the-day2.webp" alt="Deal of the Day 2">
+                <h3>Deal 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">$59.99</span>
+                <a href="#" class="btn-add-to-cart">Add to Cart</a>
+            </article>
+        </div>
+    </section>
+    <section class="featured-brands-section">
+        <section class="featured-brands">
+            <h2>Featured Brands</h2>
+            <div class="brand-list">
+                <div class="brand-item">
+                    <img src="brand1.png" alt="Brand 1">
+                </div>
+                <div class="brand-item">
+                    <img src="brand2.png" alt="Brand 2">
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="information-section" id="information">
+        <h2>Information</h2>
+        <div class="information-container">
+            <div class="information-group">
+                <h2>CUSTOMER SERVICE</h2>
+                <ul class="information-list">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Return Order</a></li>
+                    <li><a href="#">Cancel Order</a></li>
+                </ul>
+            </div>
+            <div class="information-group">
+                <h2>COMPANY</h2>
+                <ul class="information-list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">We're Hiring</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="information-group">
+                <h2>CONNECT WITH US</h2>
+                <ul class="information-list">
+                    <li>4.7M People Like this</li>
+                    <li>1M Followers</li>
+                    <li>
+                        <a href="#">Subscribe</a>
+                        <p>Enter Email Id</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.trendvista.com. All rights reserved!
+        </div>
+    </footer>
+
+</html>

@@ -116,6 +116,9 @@ header .container {
     .container {
         padding: 0 0;
     }
+    .category-list {
+        flex-direction: column;
+    }
 
     .menu {
         position: absolute;

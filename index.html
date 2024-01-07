@@ -10,42 +10,48 @@
 </head>
 
 <body>
-    <nav>
-        <!-- <div class="logo"><img src="logo.png" alt=""></div> -->
-        <ul class="nav-links">
-            <li><img src="logo.png" alt=""></li>
-            <li><a href="#home">Home</a></li>
-            <li class="dropdown">
-                <a href="#categories">Categories</a>
-                <div class="dropdown-content"></div>
-            </li>
-            <li><a href="#featured-products">Featured Products</a></li>
-            <li><a href="#new-arrivals">New Arrivals</a></li>
-            <li><a href="#deals-of-the-day">Hot Deals</a></li>
-            <li><a href="#featured-brands">Featured Brands</a></li>
-            <li class="dropdown">
-                <a href="#information">Information</a>
-                <div class="dropdown-content"></div>
-            </li>
-            <li>
-                <form class="search-bar">
-                    <input type="text" placeholder="Search...">
-                    <button type="submit">Search</button>
-                </form>
-            </li>
-            <li><a href="#contact-us" id="openContactModal">Contact Us</a></li>
-        </ul>
-    </nav>
-
-    <header>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Welcome to Our E-commerce Store</h1>
-                <p>Discover the latest trends and exclusive deals.</p>
-                <a href="#" class="btn-shop-now">Shop Now</a>
-            </div>
-        </section>
+    <header id="header">
+        <div class="container">
+            <a href="#" class="">
+                <img src="logo1.png" alt="TRENDVISTA" class="logo">
+            </a>
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#hero" class="menu_link active-link">Home</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#categories" class="menu_link">Categories</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#featured-products" class="menu_link">Featured products</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#new-arrivals" class="menu_link">New arrivals</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#deals-of-the-day" class="menu_link">Deals of the day</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#featured-brands" class="menu_link">featured-brands</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#information" class="menu_link">Information</a>
+                </li>
+                <ion-icon name="close-outline" class="close_icon"></ion-icon>
+            </ul>
+            <ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
+        </div>
+       
     </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our E-commerce Store</h1>
+            <p>Discover the latest trends and exclusive deals.</p>
+            <a href="#" class="btn-shop-now">Shop Now</a>
+        </div>
+    </section>
+
+       
 
     <section class="category-section" id="categories">
         <section class="category">
@@ -207,5 +213,8 @@
             Copyright &copy; www.trendvista.com. All rights reserved!
         </div>
     </footer>
-
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+    </body>
 </html>

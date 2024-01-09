@@ -40,7 +40,7 @@ header .container {
     align-items: center;
     flex-wrap: nowrap;
     margin-right: 24px;
-    
+
 }
 
 .menu {
@@ -107,53 +107,7 @@ header .container {
     margin-right: 10px;
 }
 
-@media screen and (max-width: 768px) {
-    header {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-    }
-    .container {
-        padding: 0 0;
-    }
-    .category-list {
-        flex-direction: column;
-    }
 
-    .menu {
-        position: absolute;
-        right: 0;
-        top: 0;
-        background-color: #eee;
-        height: 100vh;
-        padding-top: 100px;
-        width: 300px;
-        text-align: center;
-        transform: translateX(110%);
-        box-shadow: -10px 0 20px rgba(0, 0, 0, .15);
-    }
-
-    .menu.active {
-        transform: translateX(0);
-    }
-
-    .menu_item {
-        display: block;
-        margin: 20px 0;
-    }
-
-    .menu_link {
-        color: #333;
-    }
-
-    .toggle_icon {
-        display: block;
-    }
-
-    .close_icon {
-        display: block;
-    }
-}
 
 
 body {
@@ -469,4 +423,84 @@ footer {
 
 .center {
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .logo {
+        padding-right: 62px;
+    }
+    header .container {
+        margin-right: 45px;
+    }
+    .container {
+        padding: 0 0;
+    }
+
+    .category-list {
+        flex-direction: column;
+    }
+
+    .menu {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #eee;
+        height: 100vh;
+        padding-top: 100px;
+        width: 300px;
+        text-align: center;
+        transform: translateX(110%);
+        box-shadow: -10px 0 20px rgba(0, 0, 0, .15);
+    }
+
+    .menu.active {
+        transform: translateX(0);
+    }
+
+    .menu_item {
+        display: block;
+        margin: 20px 0;
+    }
+
+    .menu_link {
+        color: #333;
+    }
+
+    .toggle_icon {
+        display: block;
+    }
+
+    .close_icon {
+        display: block;
+    }
+
+    .featured-products {
+        display: flex;
+    }
+
+    .product-item {
+        width: 40%;
+    }
+
+    .product-item img {
+        width: 100%;
+        height: 156px;
+    }
+    .deals-of-the-day {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    #productdeal img {
+        width: 100%;
+        height: 231px;
+    }
 }
